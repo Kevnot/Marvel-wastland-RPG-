@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel Wasteland RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu">
+    <h1>Marvel Wasteland RPG</h1>
+    <h2>Wähle deinen Helden</h2>
+    <div id="characters">
+      <button onclick="selectCharacter('Captain Wasteland')">🛡 Captain Wasteland</button>
+      <button onclick="selectCharacter('Shadowblade')">🗡 Shadowblade</button>
+      <button onclick="selectCharacter('Techno-Wizard')">🔧 Techno-Wizard</button>
+      <button onclick="selectCharacter('Phoenix')">🔥 Phoenix</button>
+      <button onclick="selectCharacter('Ghost Archer')">🏹 Ghost Archer</button>
+    </div>
+  </div>
+
+  <canvas id="gameCanvas" width="800" height="480" style="display:none;"></canvas>
+  <script src="game.js"></script>
+</body>
+</html>
