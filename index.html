@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Wasteland RPG</title>
+    <style>
+        body { margin: 0; font-family: sans-serif; background: #111; color: #f0f0f0; }
+        #game-container { position: relative; width: 100%; height: 100vh; background: #222; }
+        canvas { background: #333; display: block; margin: auto; }
+        .hud { position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.5); padding: 10px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div class="hud">Held: Captain Wasteland</div>
+        <canvas id="game" width="800" height="600"></canvas>
+    </div>
+    <script>
+        const canvas = document.getElementById('game');
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = 'orange';
+        ctx.fillRect(100, 100, 50, 50);
+        ctx.font = '20px sans-serif';
+        ctx.fillStyle = '#fff';
+        ctx.fillText('Willkommen in den Doomstadt-Ruinen', 200, 50);
+    </script>
+</body>
+</html>
