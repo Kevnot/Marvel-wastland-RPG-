@@ -1,0 +1,16 @@
+
+{
+  "name": "Marvel Wasteland RPG",
+  "short_name": "Wasteland RPG",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "sandybrown",
+  "icons": [
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
