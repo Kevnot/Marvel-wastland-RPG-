@@ -1,0 +1,26 @@
+
+body {
+  margin: 0;
+  background: #1a1a1a;
+}
+canvas {
+  display: block;
+  margin: auto;
+  background: #222;
+  border: 2px solid #555;
+}
+#controls {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+button {
+  padding: 12px;
+  font-size: 20px;
+  background: sandybrown;
+  border: none;
+  border-radius: 10px;
+}
