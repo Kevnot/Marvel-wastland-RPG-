@@ -1,0 +1,22 @@
+
+body {
+  background-color: #1a1a1a;
+  color: sandybrown;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: sandybrown;
+  color: black;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+}
+canvas {
+  border: 2px solid sandybrown;
+  display: block;
+  margin: 20px auto;
+}
